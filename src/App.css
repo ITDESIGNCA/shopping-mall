@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.BB > .cc {
+  background: rgb(117, 172, 117) !important;
+}
+
+
+.main-bg {
+  height: 400px;
+  background-image: url('image_bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.col-md-6 {
+  justify-content: center;
+}
+
+.col-md-6 > img {
+  left: 50px;
+}
+
+.container {
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .aa {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container > .ggongbaek {
+  height: 70px;
+}
+
+
+.start {
+  opacity: 0;
+}
+
+.end {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+
+.col-lg > img {
+  margin-left: 130px;
+}
+
